@@ -2,7 +2,9 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-kdtxg4)
 
-## Title: Demystifying React Context API: Simplifying State Management
+![Screenshot 2023-08-03 223338](https://github.com/yogesh-hack/React-context-api-state-management-example/assets/83384315/3f8c171f-c3a0-4f8f-bf70-c5d04018124b)
+
+## Title: React Context API: Simplifying State Management
 
 # Introduction:
 React Context API is a powerful tool provided by React to manage state in an application. It alleviates the need for prop drilling, making it easier to pass data down the component tree. In this blog, we'll dive deep into the Context API, explore its capabilities, and see how it can be used to simplify state management in React applications.
@@ -27,11 +29,12 @@ react-context-api-state-management-example/
   │   └── ...
   ├── src/
   │   ├── components/
-  │   │   ├── App.js
   │   │   ├── UserProfile.js
-  │   │   └── UserEmail.js
+  │   │   └── EditUserProfile.js
   │   ├── context/
   │   │   └── userContext.js
+  │   │   └── userProvider.js
+  │   ├── App.js
   │   └── index.js
   ├── package.json
   └── ...
